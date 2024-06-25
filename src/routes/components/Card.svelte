@@ -34,7 +34,7 @@
             </div>
 
             {#if title !== ''}
-                <h2 class="text-white text-center font-bold text-2xl py-2">{title}</h2>
+                <h2 class="text-white text-center font-bold text-lg md:text-2xl py-2">{title}</h2>
             {/if}
         </div>
     </div>
@@ -48,7 +48,7 @@
             {/if}
 
             {#if description !== ''}
-                <p class="description text-white font-extralight mb-2">
+                <p class="description text-white font-extralight mb-5">
                     {description}
                 </p>
             {/if}
