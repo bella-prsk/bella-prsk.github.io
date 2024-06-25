@@ -5,15 +5,6 @@
 </script>
 
 <style>
-    .icon {
-		width: 50px;
-		height: auto;
-        transition: filter 0.3s ease-in-out;
-    }
-
-    .icon-inactive {
-        filter: grayscale(100%); /* Gray filter for inactive state */
-    }
 </style>
 
 <button
