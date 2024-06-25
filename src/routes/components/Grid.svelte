@@ -12,12 +12,13 @@
     
 </style>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="grid grid-cols-1 gap-4">
     {#each Object.entries(imageData.files) as [key, extension]}
         <div>
             <Card
                 title={key}
                 image={{ url: `${baseFolder}/${key}${extension}`, alt: `${key}` }}
+                opt='1'
             />
         </div>
     {/each}
