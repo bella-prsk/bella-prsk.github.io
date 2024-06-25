@@ -4,7 +4,7 @@
 
 <!-- <div class="border-t border-base-700 mx-4 sm:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl"></div> -->
 
-<footer class="text-white pb-16">
+<footer class="text-white pb-14">
 	<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
 		<!-- Rights Statement -->
 		<div class="text-center md:text-left text-xs font-light">
