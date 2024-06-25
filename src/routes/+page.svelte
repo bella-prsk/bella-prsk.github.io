@@ -1,5 +1,6 @@
 <script>
     import Main from './pages/Main.svelte'
+	import Footer from './pages/Footer.svelte'
     
 </script>
 
@@ -9,6 +10,8 @@
 		<div class="md:px-10 lg:px-20">
 			<!-- <Presentation/> -->
             <Main/>
+			<Footer/>
+
 		</div>
 	</div>
 </div>

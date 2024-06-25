@@ -1,11 +1,11 @@
 <script>
     import Card from './Card.svelte'; // Adjust path as needed based on your project structure
 
-    export let imageData; // Expects an object with a `folder` and `files` properties
-    export let baseFolder = ''; // Optional base folder override
+    import { base } from '$app/paths';
 
-    // Compute the base folder from imageData if not provided
-    $: computedBaseFolder = baseFolder || `/${imageData.folder}`;
+    export let imageData; 
+    export let baseFolder = `${base}/${imageData.folder}`; 
+
 </script>
 
 <style>
@@ -17,7 +17,7 @@
         <div>
             <Card
                 title={key}
-                image={{ url: `${computedBaseFolder}/${key}${extension}`, alt: `${key}` }}
+                image={{ url: `${baseFolder}/${key}${extension}`, alt: `${key}` }}
             />
         </div>
     {/each}

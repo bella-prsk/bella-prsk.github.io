@@ -39,6 +39,6 @@
 
 	{:else if activePage === '3'}
 		<Grid imageData={globalData} />
-
 	{/if}
+
 </div>
