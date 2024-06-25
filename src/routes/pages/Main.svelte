@@ -1,10 +1,12 @@
 <script>
 	import Button from '../components/Button.svelte';
     import Grid from '../components/Grid.svelte'
-    import imageData from '$lib/165_data.json'; // your data source
 
+    import jpDataOne from '$lib/165_data.json'; 
+    import jpDataTwo from '$lib/145_data.json'; 
+    import globalData from '$lib/global_data.json'; 
 
-	let activePage = 'Games';
+	let activePage = '1';
 	function setActivePage(page) {
 		activePage = page;
 	}
@@ -12,31 +14,31 @@
 </script>
 
 <div class="mx-4 sm:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl py-10 md:py-20">
-	<h1 class="mb-8 text-white font-semibold text-4xl">Projects</h1>
+	<!-- <h1 class="mb-8 text-white font-semibold text-4xl">Preview</h1> -->
 
 	<div class="flex flex-wrap items-center gap-4 justify-start mb-4">
 		<Button
-			label="Games"
-			active={activePage === 'Games'}
-			onClick={() => setActivePage('Games')} />
+			label="JP 165k+ đá"
+			active={activePage === '1'}
+			onClick={() => setActivePage('1')} />
 		<Button
-			label="Websites"
-			active={activePage === 'Websites'}
-			onClick={() => setActivePage('Websites')} />
+			label="JP 155k+ đá"
+			active={activePage === '2'}
+			onClick={() => setActivePage('2')} />
 		<Button
-			label="Tools"
-			active={activePage === 'Tools'}
-			onClick={() => setActivePage('Tools')} />
+			label="GB 95k+ đá"
+			active={activePage === '3'}
+			onClick={() => setActivePage('3')} />
 	</div>
 
-    <Grid {imageData} />
+	{#if activePage === '1'}
+		<Grid imageData={jpDataOne} />
 
+	{:else if activePage === '2'}
+		<Grid imageData={jpDataTwo} />
 
-	<!-- {#if activePage === 'Websites'}
-		<Websites/>
-	{:else if activePage === 'Games'}
-		<Games/>
-	{:else if activePage === 'Tools'}
-		<Tools/>
-	{/if} -->
+	{:else if activePage === '3'}
+		<Grid imageData={globalData} />
+
+	{/if}
 </div>
