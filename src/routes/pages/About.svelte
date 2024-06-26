@@ -19,7 +19,7 @@
 						Tên tài khoản: VU NGUYEN PHUONG VY
 						Ngân hàng Bản Việt (BVBank)"
 			image={{ url: bvbank, alt: `bvbank` }}
-			opt='2'
+			opt='4'
 		/>
 
 		<Card
@@ -28,7 +28,7 @@
 						Tên tài khoản: VŨ NGUYỄN PHƯƠNG VY
 						Ví điện tử MOMO"
 			image={{ url: momo, alt: `momo` }}
-			opt='2'
+			opt='4'
 		/>
 
 
