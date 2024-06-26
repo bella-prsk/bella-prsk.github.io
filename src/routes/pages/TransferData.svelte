@@ -9,7 +9,9 @@
     <Card
         title="Hướng dẫn đăng nhập bằng ID"
         description="ID chỉ sử dụng được 1 lần.
-                    ID sau khi đăng nhập sẽ hết hạn trong vòng 24-48 tiếng."
+                    Sau khi đăng nhập, ID sẽ hết hạn trong vòng 48 tiếng. 
+                    ID hết hạn sẽ không đăng nhập lại được nữa. 
+                    Để chuyển đổi tài khoản giữa các thiết bị cần tạo ID mớI."
         opt='3'
     />
 
