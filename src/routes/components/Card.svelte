@@ -13,6 +13,11 @@
         padding-bottom: 0 !important;
     }
 
+    .text-container {
+        position: relative;
+        transition: all 0.3s ease-in-out;
+    }
+
     .image-container {
         position: relative;
         height: 100%;
@@ -55,6 +60,45 @@
             <div class="image-container relative h-32 md:h-56 2xl:h-64">
                 <img src={image.url} alt={image.alt} class="w-full h-full"/>
             </div>
+        </div>
+    </div>
+
+{:else if opt === '3'}
+
+    <div class="w-full">
+        <div class="text-container bg-navy-700 mx-auto p-5 lg:p-10 hover:bg-navy-600 transition duration-300 ease-in-out">
+            {#if title !== ''}
+                <h2 class="text-white font-bold text-2xl mb-2">{title}</h2>
+            {/if}
+
+            {#if description !== ''}
+                <p class="description text-white font-extralight">
+                    {description}
+                </p>
+            {/if}
+        </div>
+    </div>
+
+{:else if opt === '4'}
+    <div class="w-full">
+        <div class="card-container bg-navy-700 mx-auto hover:bg-navy-600 transition duration-300 ease-in-out">
+            <div class="p-5 lg:p-10">
+                {#if title !== ''}
+                    <h2 class="text-white font-bold text-2xl mb-2">{title}</h2>
+                {/if}
+
+                {#if description !== ''}
+                    <p class="description text-white font-extralight">
+                        {description}
+                    </p>
+                {/if}
+            </div>
+
+            <div class="image-container relative h-32 md:h-56 2xl:h-64">
+                <img src={image.url} alt={image.alt} class="w-full h-full"/>
+            </div>
+
+
         </div>
     </div>
 

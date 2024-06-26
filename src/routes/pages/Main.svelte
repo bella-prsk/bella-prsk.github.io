@@ -7,6 +7,8 @@
     import jpDataOne from '$lib/165_data.json'; 
     import jpDataTwo from '$lib/145_data.json'; 
     import globalData from '$lib/global_data.json'; 
+	import TransferData from './TransferData.svelte';
+	import SaveData from './SaveData.svelte';
 
 	let activePage = '0';
 	function setActivePage(page) {
@@ -35,6 +37,15 @@
 			label="GB 95k+ đá"
 			active={activePage === '3'}
 			onClick={() => setActivePage('3')} />
+		<Button
+			label="Hướng dẫn đăng nhập"
+			active={activePage === '4'}
+			onClick={() => setActivePage('4')} />
+		<Button
+			label="Hướng dẫn tạo ID"
+			active={activePage === '5'}
+			onClick={() => setActivePage('5')} />
+		
 	</div>
 
 	{#if activePage === '0'}
@@ -48,6 +59,10 @@
 
 	{:else if activePage === '3'}
 		<Grid imageData={globalData} />
+	{:else if activePage === '4'}
+		<TransferData/>
+	{:else if activePage === '5'}
+		<SaveData/>
 	{/if}
 
 </div>
