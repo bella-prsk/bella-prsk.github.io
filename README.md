@@ -1,3 +1,5 @@
 # Thông báo
 
-## 🚧 Trang Web Đang Được Cập Nhật 🚧
+## 🚧 Trang web đang được cập nhập 🚧
+
+Mọi chi tiết xin liên hệ [Bella Vũ](https://www.facebook.com/bella.vnpv/)

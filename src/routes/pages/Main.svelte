@@ -32,7 +32,7 @@
 			active={activePage === '1'}
 			onClick={() => setActivePage('1')} />
 		<Button
-			label="JP 154k+ đá"
+			label="JP 155k+ đá"
 			active={activePage === '2'}
 			onClick={() => setActivePage('2')} />
 		<Button
