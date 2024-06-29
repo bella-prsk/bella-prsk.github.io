@@ -1,6 +1,4 @@
 <script>
-	import { Router, Route } from 'svelte-routing';
-	
 	import Button from '../components/Button.svelte';
     import Grid from '../components/Grid.svelte'
 
@@ -10,8 +8,14 @@
     import jpDataTwo from '$lib/145_data.json'; 
     import globalData from '$lib/global_data.json'; 
     import starterData from '$lib/starter_data.json'; 
+
 	import TransferData from './TransferData.svelte';
 	import SaveData from './SaveData.svelte';
+
+	let activePage = '0';
+	function setActivePage(page) {
+		activePage = page;
+	}
 
 </script>
 
@@ -19,43 +23,57 @@
 	<!-- <h1 class="mb-8 text-white font-semibold text-4xl">Preview</h1> -->
 
 	<div class="flex flex-wrap items-center gap-4 justify-start mb-4">
-		<Button label="Thông tin" to="/" />
-		<Button label="JP 165k+ đá" to="/jp-1" />
-		<Button label="JP 154k+ đá" to="/jp-2" />
-		<Button label="ENG 90k+ đá" to="/eng-1" />
-		<Button label="Starter limit hết đá" to="/starter" />
-		<Button label="Hướng dẫn đăng nhập" to="/transfer" />
-		<Button label="Hướng dẫn tạo ID" to="/create" />
+		<Button
+			label="Thông tin"
+			active={activePage === '0'}
+			onClick={() => setActivePage('0')} />
+		<Button
+			label="JP 165k+ đá"
+			active={activePage === '1'}
+			onClick={() => setActivePage('1')} />
+		<Button
+			label="JP 154k+ đá"
+			active={activePage === '2'}
+			onClick={() => setActivePage('2')} />
+		<Button
+			label="ENG 90k+ đá"
+			active={activePage === '3'}
+			onClick={() => setActivePage('3')} />
+		<Button
+			label="Starter limit hết đá"
+			active={activePage === '6'}
+			onClick={() => setActivePage('6')} />
+		<Button
+			label="Hướng dẫn đăng nhập"
+			active={activePage === '4'}
+			onClick={() => setActivePage('4')} />
+		<Button
+			label="Hướng dẫn tạo ID"
+			active={activePage === '5'}
+			onClick={() => setActivePage('5')} />
+		
 	</div>
 
-	<Router>
-		<Route path="/">
-			<About/>
-		</Route>
+	{#if activePage === '0'}
+		<About/>
 
-		<Route path="/jp-1">
-			<Grid imageData={jpDataOne} />
-		</Route>
+	{:else if activePage === '1'}
+		<Grid imageData={jpDataOne} />
 
-		<Route path="/jp-2">
-			<Grid imageData={jpDataTwo} />
-		</Route>
+	{:else if activePage === '2'}
+		<Grid imageData={jpDataTwo} />
 
-		<Route path="/eng-1">
-			<Grid imageData={globalData} />
-		</Route>
+	{:else if activePage === '3'}
+		<Grid imageData={globalData} />
 
-		<Route path="starter">
-			<Grid imageData={starterData} />
-		</Route>
+	{:else if activePage === '4'}
+		<TransferData/>
 
-		<Route path="/transfer">
-			<TransferData/>
-		</Route>
+	{:else if activePage === '5'}
+		<SaveData/>
+	{:else if activePage === '6'} 
+		<Grid imageData={starterData} />
 
-		<Route path="/create">
-			<SaveData/>
-		</Route>
-	</Router>
+	{/if}
 
 </div>
