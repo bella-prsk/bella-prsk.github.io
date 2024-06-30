@@ -1,9 +1,5 @@
 <script>
 	import Card from '../components/Card.svelte'
-	
-	import bvbank from '$lib/assets/bvbank.png'
-	import momo from '$lib/assets/momo.png'
-
 </script>
 
 <div class="text-white flex flex-col justify-center">
@@ -19,7 +15,7 @@
 			description="Tài khoản: 0687041147289 hoặc bella
 						Tên tài khoản: VU NGUYEN PHUONG VY
 						Ngân hàng Bản Việt (BVBank)"
-			image={{ url: bvbank, alt: `bvbank` }}
+			image={{ url: 'assets/bvbank.png', alt: `bvbank` }}
 			opt='4'
 		/>
 
@@ -28,7 +24,7 @@
 			description="Tài khoản: 0905124616
 						Tên tài khoản: VŨ NGUYỄN PHƯƠNG VY
 						Ví điện tử MOMO"
-			image={{ url: momo, alt: `momo` }}
+			image={{ url: 'assets/momo.png', alt: `momo` }}
 			opt='4'
 		/>
 
