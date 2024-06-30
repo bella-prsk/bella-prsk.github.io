@@ -11,6 +11,7 @@
 
 	import TransferData from './TransferData.svelte';
 	import SaveData from './SaveData.svelte';
+	import Payment from './Payment.svelte';
 
 	let activePage = '0';
 	function setActivePage(page) {
@@ -27,6 +28,10 @@
 			label="Thông tin"
 			active={activePage === '0'}
 			onClick={() => setActivePage('0')} />
+		<Button
+			label="Thanh toán"
+			active={activePage === '7'}
+			onClick={() => setActivePage('7')} />
 		<Button
 			label="JP 165k+ đá"
 			active={activePage === '1'}
@@ -71,8 +76,12 @@
 
 	{:else if activePage === '5'}
 		<SaveData/>
+
 	{:else if activePage === '6'} 
 		<Grid imageData={starterData} />
+
+	{:else if activePage === '7'} 
+		<Payment/>
 
 	{/if}
 
