@@ -27,8 +27,6 @@
 			image={{ url: 'assets/momo.png', alt: `momo` }}
 			opt='4'
 		/>
-
-
 	</div>
 
 	

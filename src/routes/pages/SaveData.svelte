@@ -29,7 +29,8 @@
         title="Bước 3"
         description="Dịch sơ sơ từng nút:
         1. Liên kết vô tài khoản GooglePlay (Android) hoặc Game Center (iOS)
-        2. Tạo ID chuyển dữ liệu mới nếu khác hệ điều hành."
+        2. Tạo ID chuyển dữ liệu mới nếu khác hệ điều hành.
+        Ấn nút số 2."
         image={{ url: 'tutorial/screenshot_12.jpg', alt: `12` }}
         opt='4'
     />

@@ -25,7 +25,8 @@
         1. Truyền dữ liệu giữa các thiết bị
         2. Liên hệ hỗ trợ
         3. Xóa bộ nhớ đệm (cache)
-        4. Xóa dữ liệu game (xóa luôn tài khoản đang ở trong máy)"
+        4. Xóa dữ liệu game (xóa luôn tài khoản đang ở trong máy)
+        Ấn nút số 1."
         image={{ url: 'tutorial/screenshot_2.jpg', alt: `2` }}
         opt='4'
     />
@@ -34,7 +35,8 @@
         title="Bước 3"
         description="Dịch sơ sơ từng nút:
         1. Đăng nhập cùng hệ điều hành bằng tài khoản GooglePlay (Android) hoặc Game Center (iOS)
-        2. Đăng nhập khác hệ điều hành bằng ID chuyển đổi"
+        2. Đăng nhập khác hệ điều hành bằng ID chuyển đổi
+        Ấn nút số 2."
         image={{ url: 'tutorial/screenshot_3.jpg', alt: `3` }}
         opt='4'
     />
