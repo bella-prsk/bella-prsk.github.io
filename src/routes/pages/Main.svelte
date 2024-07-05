@@ -4,14 +4,15 @@
 
 	import About from './About.svelte'
 
-    import jpDataOne from '$lib/165_data.json'; 
-    import jpDataTwo from '$lib/145_data.json'; 
-    import globalData from '$lib/global_data.json'; 
-    import starterData from '$lib/starter_data.json'; 
+    import jpDataOne from '$lib/json/165_data.json'; 
+    import jpDataTwo from '$lib/json/145_data.json'; 
+    import globalData from '$lib/json/global_data.json'; 
+    import starterData from '$lib/json/starter_data.json'; 
 
 	import TransferData from './TransferData.svelte';
 	import SaveData from './SaveData.svelte';
 	import Payment from './Payment.svelte';
+	import ExtendGrid from '../components/ExtendGrid.svelte';
 
 	let activePage = '0';
 	function setActivePage(page) {
@@ -63,13 +64,13 @@
 		<About/>
 
 	{:else if activePage === '1'}
-		<Grid imageData={jpDataOne} />
+		<Grid imageData={jpDataOne}/>
 
 	{:else if activePage === '2'}
-		<Grid imageData={jpDataTwo} />
+		<Grid imageData={jpDataTwo}/>
 
 	{:else if activePage === '3'}
-		<Grid imageData={globalData} />
+		<Grid imageData={globalData}/>
 
 	{:else if activePage === '4'}
 		<TransferData/>
@@ -78,7 +79,7 @@
 		<SaveData/>
 
 	{:else if activePage === '6'} 
-		<Grid imageData={starterData} />
+		<ExtendGrid imageData={starterData}/>
 
 	{:else if activePage === '7'} 
 		<Payment/>

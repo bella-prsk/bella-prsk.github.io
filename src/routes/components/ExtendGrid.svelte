@@ -1,0 +1,68 @@
+<script>
+    import Card from './Card.svelte'; 
+    import Tag from './Tag.svelte';
+    import { base } from '$app/paths';
+    import tagColors from '$lib/json/tag_colors.json'; 
+
+    export let imageData; 
+    export let baseFolder = `${base}/${imageData.folder}`; 
+    let selectedTags = new Set();
+
+    function handleTagClick(tagName) {
+        if (selectedTags.has(tagName)) {
+            selectedTags.delete(tagName);
+        } else {
+            selectedTags.add(tagName);
+        }
+        selectedTags = new Set(selectedTags);  // Re-assign to trigger reactivity
+    }
+
+    // Filter images based on selected tags using "AND" logic
+    $: filteredImages = selectedTags.size > 0
+        ? Object.entries(imageData.files).filter(([key, fileData]) =>
+            Array.from(selectedTags).every(tag => fileData.tags.includes(tag)))
+        : Object.entries(imageData.files);
+
+</script>
+
+<div class="w-full">
+    <div class="card-container bg-navy-700 mx-auto hover:bg-navy-600 transition duration-300 ease-in-out mb-4">
+        <div class="p-5 lg:p-10">
+            <h2 class="text-white font-bold text-2xl mb-2">Bộ lọc tìm kiếm</h2>
+            <div>
+                {#each Object.keys(tagColors) as tagName}
+                    <Tag 
+                        tagName={tagName} 
+                        colors={tagColors} 
+                        active={selectedTags.has(tagName)}
+                        on:click={() => handleTagClick(tagName)}
+                    />
+                {/each}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Image Grid -->
+<div class="grid grid-cols-1 gap-4">
+    {#each filteredImages as [key, fileData] (key)}
+        <div>
+            <Card
+                title={key}
+                image={{ url: `${baseFolder}/${key}${fileData.type}`, alt: `${key}` }}
+                fileData={fileData}
+                colors={tagColors}
+                opt='5'
+            />
+        </div>
+    {/each}
+
+    {#if filteredImages.length === 0}
+    <Card
+        title="Không tìm thấy"
+        description="Không tìm thấy dữ liệu phù hợp"
+        image={{ url: 'assets/not_found.png', alt: `not found` }}
+        opt='4'
+    />
+    {/if}
+</div>

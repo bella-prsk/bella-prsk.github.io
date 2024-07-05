@@ -13,11 +13,11 @@
 </style>
 
 <div class="grid grid-cols-1 gap-4">
-    {#each Object.entries(imageData.files) as [key, extension]}
+    {#each Object.entries(imageData.files) as [key, fileData]}
         <div>
             <Card
                 title={key}
-                image={{ url: `${baseFolder}/${key}${extension}`, alt: `${key}` }}
+                image={{ url: `${baseFolder}/${key}${fileData.type}`, alt: `${key}` }}
                 opt='1'
             />
         </div>
