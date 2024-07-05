@@ -19,6 +19,14 @@
         }
         selectedTags = new Set(selectedTags);  // Re-assign to trigger reactivity
         currentPage = 1; // Reset to first page when tags change
+        scrollToTop();
+    }
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     }
 
     // Filter images based on selected tags using "AND" logic
@@ -33,6 +41,7 @@
     function goToPage(page) {
         if (page > 0 && page <= Math.ceil(filteredImages.length / itemsPerPage)) {
             currentPage = page;
+            scrollToTop();
         }
     }
 
