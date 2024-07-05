@@ -15,7 +15,7 @@
                 "Kanade",
                 "Mafuyu"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "004": {
             "price": "40k",
@@ -94,7 +94,7 @@
                 "Emu",
                 "Mafuyu"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "012": {
             "price": "40k",
@@ -122,7 +122,7 @@
                 "Mafuyu",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "015": {
             "price": "10k",
@@ -135,7 +135,7 @@
                 "Kanade",
                 "Ena"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "016": {
             "price": "10k",
@@ -148,7 +148,7 @@
                 "Emu",
                 "Ena"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "017": {
             "price": "10k",
@@ -161,7 +161,7 @@
                 "Kanade",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "018": {
             "price": "10k",
@@ -173,7 +173,7 @@
                 "Akito",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "020": {
             "price": "10k",
@@ -185,7 +185,7 @@
                 "Kanade",
                 "Mafuyu"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "021": {
             "price": "20k",
@@ -199,7 +199,7 @@
                 "Nene",
                 "Ena"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "022": {
             "price": "10k",
@@ -212,7 +212,7 @@
                 "Shizuku",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "023": {
             "price": "20k",
@@ -226,7 +226,7 @@
                 "Akito",
                 "Tsusaka"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "026": {
             "price": "20k",
@@ -238,7 +238,7 @@
                 "Toya",
                 "Rui"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "027": {
             "price": "10k",
@@ -251,7 +251,7 @@
                 "Mafuyu",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "029": {
             "price": "20k",
@@ -265,7 +265,7 @@
                 "Kohane",
                 "Ena"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "030": {
             "price": "40k",
@@ -294,7 +294,7 @@
                 "Shizuku",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "034": {
             "price": "30k",
@@ -355,7 +355,7 @@
                 "Mafuyu",
                 "Ena"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "038": {
             "price": "30k",
@@ -368,7 +368,7 @@
                 "Tsusaka",
                 "Mafuyu"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "039": {
             "price": "40k",
@@ -411,7 +411,7 @@
                 "Kohane",
                 "Ena"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "042": {
             "price": "50k",
@@ -456,7 +456,7 @@
                 "Airi",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "046": {
             "price": "30k",
@@ -470,7 +470,7 @@
                 "Shizuku",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "047": {
             "price": "20k",
@@ -484,7 +484,7 @@
                 "Shizuku",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "048": {
             "price": "50k",
@@ -558,7 +558,7 @@
                 "Ena",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "058": {
             "price": "60k",
@@ -601,7 +601,7 @@
                 "Tsusaka",
                 "Emu"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "064": {
             "price": "60k",
@@ -630,7 +630,7 @@
                 "Emu",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "068": {
             "price": "30k",
@@ -643,7 +643,7 @@
                 "An",
                 "Toya"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "069": {
             "price": "20k",
@@ -656,7 +656,7 @@
                 "Ena",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "072": {
             "price": "25k",
@@ -670,7 +670,7 @@
                 "Ena",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "073": {
             "price": "50k",
@@ -684,7 +684,7 @@
                 "Mafuyu",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "074": {
             "price": "25k",
@@ -698,7 +698,7 @@
                 "Ena",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "075": {
             "price": "25k",
@@ -724,7 +724,7 @@
                 "Ena",
                 "Mizuki"
             ],
-            "type": ".png"
+            "type": ".jpg"
         },
         "077": {
             "price": "50k",
