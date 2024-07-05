@@ -14,7 +14,7 @@
 	import Payment from './Payment.svelte';
 	import ExtendGrid from '../components/ExtendGrid.svelte';
 
-	let activePage = '0';
+	let activePage = '6';
 	function setActivePage(page) {
 		activePage = page;
 	}
