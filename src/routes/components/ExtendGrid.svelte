@@ -8,6 +8,9 @@
     export let baseFolder = `${base}/${imageData.folder}`; 
     let selectedTags = new Set();
 
+    let currentPage = 1;
+    const itemsPerPage = 10;
+
     function handleTagClick(tagName) {
         if (selectedTags.has(tagName)) {
             selectedTags.delete(tagName);
@@ -15,6 +18,7 @@
             selectedTags.add(tagName);
         }
         selectedTags = new Set(selectedTags);  // Re-assign to trigger reactivity
+        currentPage = 1; // Reset to first page when tags change
     }
 
     // Filter images based on selected tags using "AND" logic
@@ -23,6 +27,16 @@
             Array.from(selectedTags).every(tag => fileData.tags.includes(tag)))
         : Object.entries(imageData.files);
 
+    // Compute paginated data
+    $: paginatedImages = filteredImages.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+
+    function goToPage(page) {
+        if (page > 0 && page <= Math.ceil(filteredImages.length / itemsPerPage)) {
+            currentPage = page;
+        }
+    }
+
+    $: totalPages = Math.ceil(filteredImages.length / itemsPerPage);
 </script>
 
 <div class="w-full">
@@ -45,7 +59,7 @@
 
 <!-- Image Grid -->
 <div class="grid grid-cols-1 gap-4">
-    {#each filteredImages as [key, fileData] (key)}
+    {#each paginatedImages as [key, fileData] (key)}
         <div>
             <Card
                 title={key}
@@ -57,7 +71,7 @@
         </div>
     {/each}
 
-    {#if filteredImages.length === 0}
+    {#if paginatedImages.length === 0}
     <Card
         title="Không tìm thấy"
         description="Không tìm thấy dữ liệu phù hợp"
@@ -65,4 +79,28 @@
         opt='4'
     />
     {/if}
+</div>
+
+<!-- Pagination Controls -->
+<div class="flex flex-col items-center mt-4">
+    <span class="text-sm text-gray-700 dark:text-gray-400">
+        Hiển thị trang
+        <span class="font-semibold text-gray-900 dark:text-white">{currentPage}</span> 
+        trên 
+        <span class="font-semibold text-gray-900 dark:text-white">{totalPages}</span>
+    </span>
+    <div class="inline-flex mt-2 xs:mt-0">
+        <button 
+            class="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-navy-700 hover:bg-navy-900"
+            on:click={() => goToPage(currentPage - 1)} 
+            disabled={currentPage === 1}>
+            Trang trước
+        </button>
+        <button 
+            class="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-navy-700 border-0 hover:bg-navy-900"
+            on:click={() => goToPage(currentPage + 1)} 
+            disabled={currentPage === totalPages}>
+            Trang sau
+        </button>
+    </div>
 </div>
