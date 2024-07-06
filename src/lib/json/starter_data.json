@@ -1,22 +1,6 @@
 {
     "folder": "starter",
     "files": {
-        "003": {
-            "price": "120k",
-            "crystal": "",
-            "big_note": "22",
-            "small_note": "7k3",
-            "tags": [
-                "MEIKO",
-                "KAITO",
-                "Ichika",
-                "Minori",
-                "Tsusaka",
-                "Kanade",
-                "Mafuyu"
-            ],
-            "type": ".jpg"
-        },
         "004": {
             "price": "40k",
             "crystal": "",
