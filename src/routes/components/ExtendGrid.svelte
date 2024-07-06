@@ -19,7 +19,6 @@
         }
         selectedTags = new Set(selectedTags);  // Re-assign to trigger reactivity
         currentPage = 1; // Reset to first page when tags change
-        scrollToTop();
     }
 
     function scrollToTop() {
