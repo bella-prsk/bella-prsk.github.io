@@ -48,7 +48,7 @@
 <div class="w-full">
     <div class="card-container bg-navy-700 mx-auto hover:bg-navy-600 transition duration-300 ease-in-out mb-4">
         <div class="p-5 lg:p-10">
-            <h2 class="text-white font-bold text-2xl mb-2">Bộ lọc tìm kiếm</h2>
+            <h2 class="text-white font-bold text-xl mb-2">Bộ lọc tìm kiếm</h2>
             <div>
                 {#each Object.keys(tagColors) as tagName}
                     <Tag 

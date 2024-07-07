@@ -56,7 +56,7 @@
     <div class="w-full">
         <div class="card-container bg-navy-700 mx-auto p-5 lg:p-10 hover:bg-navy-600 transition duration-300 ease-in-out">
             {#if title !== ''}
-                <h2 class="text-white font-bold text-2xl mb-2">{title}</h2>
+                <h2 class="text-white font-bold text-xl mb-2">{title}</h2>
             {/if}
 
             {#if description !== ''}
@@ -75,7 +75,7 @@
     <div class="w-full">
         <div class="text-container bg-navy-700 mx-auto p-5 lg:p-10 hover:bg-navy-600 transition duration-300 ease-in-out">
             {#if title !== ''}
-                <h2 class="text-white font-bold text-2xl mb-2">{title}</h2>
+                <h2 class="text-white font-bold text-xl mb-2">{title}</h2>
             {/if}
 
             {#if description !== ''}
@@ -91,7 +91,7 @@
         <div class="card-container bg-navy-700 mx-auto hover:bg-navy-600 transition duration-300 ease-in-out">
             <div class="p-5 lg:p-10">
                 {#if title !== ''}
-                    <h2 class="text-white font-bold text-2xl mb-2">{title}</h2>
+                    <h2 class="text-white font-bold text-xl mb-2">{title}</h2>
                 {/if}
 
                 {#if description !== ''}
