@@ -2,7 +2,7 @@
     import Tag from './Tag.svelte';
 
     export let title = '';
-	export let image = { url: '', alt: '' };
+	export let image = { url: '', alt: '', onLoad: () => {} };
     export let opt = '';
     export let description = '';
 
@@ -40,13 +40,14 @@
 {#if opt === '1'}
     <div class="w-full">
         <div class="card-container bg-navy-700 mx-auto hover:bg-navy-600 transition duration-300 ease-in-out">
-            <div class="image-container relative h-32 md:h-56 2xl:h-64">
-                <img src={image.url} alt={image.alt} class="w-full h-full"/>
+            <div class="p-5 lg:p-10">
+                {#if title !== ''}
+                    <h2 class="text-white font-bold text-xl">{title}</h2>
+                {/if}
             </div>
-
-            {#if title !== ''}
-                <h2 class="text-white text-center font-bold text-lg md:text-2xl py-2">{title}</h2>
-            {/if}
+            <div class="image-container relative h-32 md:h-56 2xl:h-64">
+                <img src={image.url} alt={image.alt} on:load="{image.onLoad}" class="w-full h-full"/>
+            </div>
         </div>
     </div>
 

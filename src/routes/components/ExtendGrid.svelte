@@ -17,8 +17,8 @@
         } else {
             selectedTags.add(tagName);
         }
-        selectedTags = new Set(selectedTags);  // Re-assign to trigger reactivity
-        currentPage = 1; // Reset to first page when tags change
+        selectedTags = new Set(selectedTags);
+        currentPage = 1; 
     }
 
     function scrollToTop() {
@@ -28,13 +28,11 @@
         });
     }
 
-    // Filter images based on selected tags using "AND" logic
     $: filteredImages = selectedTags.size > 0
         ? Object.entries(imageData.files).filter(([key, fileData]) =>
             Array.from(selectedTags).every(tag => fileData.tags.includes(tag)))
         : Object.entries(imageData.files);
 
-    // Compute paginated data
     $: paginatedImages = filteredImages.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
     function goToPage(page) {

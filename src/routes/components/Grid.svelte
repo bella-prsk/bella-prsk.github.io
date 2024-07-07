@@ -1,19 +1,25 @@
 <script>
-    import Card from './Card.svelte'; // Adjust path as needed based on your project structure
-
+    import Card from './Card.svelte'; 
     import { base } from '$app/paths';
 
-    export let imageData; 
-    export let baseFolder = `${base}/${imageData.folder}`; 
+    export let imageData;
+    export let baseFolder = `${base}/${imageData.folder}`;
 
+    let currentPage = 1;
+    let itemsPerPage = 10; 
+
+    let totalPages = Math.ceil(Object.keys(imageData.files).length / itemsPerPage);
+
+    function goToPage(page) {
+        currentPage = page;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 </script>
 
-<style>
-    
-</style>
+
 
 <div class="grid grid-cols-1 gap-4">
-    {#each Object.entries(imageData.files) as [key, fileData]}
+    {#each Object.entries(imageData.files).slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage) as [key, fileData]}
         <div>
             <Card
                 title={key}
@@ -22,4 +28,28 @@
             />
         </div>
     {/each}
+</div>
+
+
+<div class="flex flex-col items-center mt-4">
+    <span class="text-sm text-gray-700 dark:text-gray-400">
+        Hiển thị trang
+        <span class="font-semibold text-gray-900 dark:text-white">{currentPage}</span> 
+        trên 
+        <span class="font-semibold text-gray-900 dark:text-white">{totalPages}</span>
+    </span>
+    <div class="inline-flex mt-2 xs:mt-0">
+        <button 
+            class="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-navy-700 hover:bg-navy-900"
+            on:click={() => goToPage(currentPage - 1)} 
+            disabled={currentPage === 1}>
+            Trang trước
+        </button>
+        <button 
+            class="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-navy-700 border-0 hover:bg-navy-900"
+            on:click={() => goToPage(currentPage + 1)} 
+            disabled={currentPage === totalPages}>
+            Trang sau
+        </button>
+    </div>
 </div>
