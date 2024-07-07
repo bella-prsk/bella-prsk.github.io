@@ -12,7 +12,14 @@
 
     function goToPage(page) {
         currentPage = page;
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        scrollToTop();
+    }
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     }
 </script>
 
