@@ -707,22 +707,6 @@
                 "Mizuki"
             ],
             "type": ".jpg"
-        },
-        "103": {
-            "price": "40k",
-            "crystal": "",
-            "big_note": "9",
-            "small_note": "7155",
-            "tags": [
-                "MIKU",
-                "MEIKO",
-                "Kohane",
-                "Akito",
-                "Emu",
-                "Nene",
-                "Kanade"
-            ],
-            "type": ".jpg"
         }
     }
 }
