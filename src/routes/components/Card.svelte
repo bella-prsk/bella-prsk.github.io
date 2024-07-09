@@ -6,8 +6,8 @@
     export let opt = '';
     export let description = '';
 
-    export let fileData;
-    export let colors = '';
+    export let fileData = undefined;
+    export let colors = '' | undefined;
 
 </script>
 
