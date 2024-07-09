@@ -6,7 +6,9 @@
 
 	<Card
 		title="Thanh toán bằng thẻ điện thoại"
-		description="Inbox facebook mình để biết giá chiết khấu, với lại mình thường ưu tiên thẻ Vinaphone hơn."
+		description="Dưới 100k: +10k chiết khấu
+		Trên 100k: +20k chiết khấu
+		Mình ưu tiên thẻ Vinaphone hơn."
 		opt='3'
 	/>
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
