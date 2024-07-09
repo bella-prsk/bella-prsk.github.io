@@ -2,7 +2,7 @@
     "folder": "starter",
     "files": {
         "004": {
-            "price": "40k",
+            "price": "50k",
             "crystal": "",
             "big_note": "5",
             "small_note": "9k9",
@@ -236,7 +236,7 @@
             "type": ".jpg"
         },
         "030": {
-            "price": "40k",
+            "price": "50k",
             "crystal": "",
             "big_note": "2",
             "small_note": "4k4",
@@ -265,7 +265,7 @@
             "type": ".jpg"
         },
         "034": {
-            "price": "30k",
+            "price": "40k",
             "crystal": "",
             "big_note": "3",
             "small_note": "5k2",
@@ -611,7 +611,7 @@
             "type": ".jpg"
         },
         "073": {
-            "price": "50k",
+            "price": "40k",
             "crystal": "",
             "big_note": "6",
             "small_note": "6670",
@@ -625,10 +625,10 @@
             "type": ".jpg"
         },
         "074": {
-            "price": "25k",
+            "price": "30k",
             "crystal": "",
-            "big_note": "6390",
-            "small_note": "2",
+            "big_note": "2",
+            "small_note": "6390",
             "tags": [
                 "LUKA",
                 "Minori",
@@ -652,7 +652,7 @@
             "type": ".jpg"
         },
         "076": {
-            "price": "25k",
+            "price": "30k",
             "crystal": "",
             "big_note": "2",
             "small_note": "6200",
