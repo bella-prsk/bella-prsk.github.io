@@ -6,7 +6,8 @@
 
 	<Card
 		title="Thanh toán bằng thẻ điện thoại"
-		description="Dưới 100k: +10k chiết khấu
+		description="Số tiền là số lẻ: làm tròn lên số chẵn (ví dụ 8k -> 10k)
+		Dưới 100k: +10k chiết khấu
 		Trên 100k: +20k chiết khấu
 		Mình ưu tiên thẻ Vinaphone hơn."
 		opt='3'
