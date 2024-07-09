@@ -115,7 +115,11 @@
             <div class="p-5 lg:p-10">
                 
                 <div class="grid grid-rows-2 grid-flow-col">
-                    <div class="row-span-1 col-span-1 text-white font-bold text-xl">{title}</div>
+                    <div class="row-span-1 col-span-1 text-white font-bold text-xl">{title}
+                        {#if fileData.crystal != ''}
+                        - {fileData.crystal} đá
+                        {/if}
+                    </div>
                     <div>
                         <span class="col-span-1 text-white font-extralight text-sm">Note to: {fileData.big_note} - </span>
                         <span class="col-span-1 text-white font-extralight text-sm">Note nhỏ: {fileData.small_note}</span>

@@ -1,0 +1,178 @@
+{
+    "folder": "crystal",
+    "files": {
+        "201": {
+            "price": "50k",
+            "crystal": "43k",
+            "big_note": "6",
+            "small_note": "8k2",
+            "tags": [
+                "Ena",
+                "Mizuki"
+            ],
+            "type": ".jpg"
+        },
+        "202": {
+            "price": "40k",
+            "crystal": "25 270",
+            "big_note": "5",
+            "small_note": "4960",
+            "tags": [
+                "Tsusaka",
+                "Emu",
+                "Nene",
+                "Rui"
+            ],
+            "type": ".jpg"
+        },
+        "203": {
+            "price": "40k",
+            "crystal": "26 900",
+            "big_note": "5",
+            "small_note": "5110",
+            "tags": [
+                "Tsusaka",
+                "Emu",
+                "Nene",
+                "Rui"
+            ],
+            "type": ".jpg"
+        },
+        "205": {
+            "price": "80k",
+            "crystal": "80k",
+            "big_note": "",
+            "small_note": "",
+            "tags": [
+                "KAITO"
+            ],
+            "type": ".jpg"
+        },
+        "206": {
+            "price": "40k",
+            "crystal": "39k",
+            "big_note": "",
+            "small_note": "",
+            "tags": [
+                "Minori",
+                "Haruka",
+                "Airi",
+                "Shizuku"
+            ],
+            "type": ".jpg"
+        },
+        "211": {
+            "price": "60k",
+            "crystal": "60k",
+            "big_note": "",
+            "small_note": "",
+            "tags": [
+                "MIKU",
+                "Shiho",
+                "Akito",
+                "Mafuyu"
+            ],
+            "type": ".jpg"
+        },
+        "212": {
+            "price": "60k",
+            "crystal": "41 900",
+            "big_note": "5",
+            "small_note": "6810",
+            "tags": [
+                "MIKU",
+                "MEIKO",
+                "Kohane",
+                "Akito",
+                "Kanade"
+            ],
+            "type": ".jpg"
+        },
+        "213": {
+            "price": "120k",
+            "crystal": "75 200",
+            "big_note": "6",
+            "small_note": "5825",
+            "tags": [
+                "MIKU",
+                "MEIKO",
+                "Kohane",
+                "Akito",
+                "Kanade"
+            ],
+            "type": ".jpg"
+        },
+        "214": {
+            "price": "60k",
+            "crystal": "27 000",
+            "big_note": "6",
+            "small_note": "6525",
+            "tags": [
+                "MIKU",
+                "LEN",
+                "Kohane",
+                "Akito",
+                "Kanade"
+            ],
+            "type": ".jpg"
+        },
+        "215": {
+            "price": "80k",
+            "crystal": "39 400",
+            "big_note": "4",
+            "small_note": "6475",
+            "tags": [
+                "MIKU",
+                "MEIKO",
+                "Kohane",
+                "Akito",
+                "Kanade",
+                "Mafuyu"
+            ],
+            "type": ".jpg"
+        },
+        "216": {
+            "price": "100k",
+            "crystal": "63 500",
+            "big_note": "4",
+            "small_note": "5770",
+            "tags": [
+                "MIKU",
+                "MEIKO",
+                "Saki",
+                "Kohane",
+                "Akito",
+                "Kanade"
+            ],
+            "type": ".jpg"
+        },
+        "217": {
+            "price": "120k",
+            "crystal": "90 300",
+            "big_note": "2",
+            "small_note": "5430",
+            "tags": [
+                "MIKU",
+                "MEIKO",
+                "Kohane",
+                "Akito"
+            ],
+            "type": ".jpg"
+        },
+        "218": {
+            "price": "80k",
+            "crystal": "41 960",
+            "big_note": "5",
+            "small_note": "5685",
+            "tags": [
+                "MIKU",
+                "MEIKO",
+                "Saki",
+                "Kohane",
+                "Akito",
+                "Kanade"
+            ],
+            "type": ".jpg"
+        }
+    }
+}

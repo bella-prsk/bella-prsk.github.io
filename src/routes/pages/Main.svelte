@@ -8,6 +8,7 @@
     import jpDataTwo from '$lib/json/145_data.json'; 
     import globalData from '$lib/json/global_data.json'; 
     import starterData from '$lib/json/starter_data.json'; 
+    import crystalData from '$lib/json/crystal_data.json'; 
 
 	import TransferData from './TransferData.svelte';
 	import SaveData from './SaveData.svelte';
@@ -31,8 +32,8 @@
 			onClick={() => setActivePage('0')} />
 		<Button
 			label="Thanh toán"
-			active={activePage === '7'}
-			onClick={() => setActivePage('7')} />
+			active={activePage === '8'}
+			onClick={() => setActivePage('8')} />
 		<Button
 			label="JP 165k+ đá"
 			active={activePage === '1'}
@@ -49,6 +50,10 @@
 			label="Starter limit hết đá"
 			active={activePage === '6'}
 			onClick={() => setActivePage('6')} />
+		<Button
+			label="Starter limit còn đá"
+			active={activePage === '7'}
+			onClick={() => setActivePage('7')} />
 		<Button
 			label="Hướng dẫn đăng nhập"
 			active={activePage === '4'}
@@ -82,6 +87,9 @@
 		<ExtendGrid imageData={starterData}/>
 
 	{:else if activePage === '7'} 
+		<ExtendGrid imageData={crystalData}/>
+
+	{:else if activePage === '8'} 
 		<Payment/>
 
 	{/if}
