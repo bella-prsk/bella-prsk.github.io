@@ -454,23 +454,6 @@
             ],
             "type": ".jpg"
         },
-        "049": {
-            "price": "80k",
-            "crystal": "",
-            "big_note": "2",
-            "small_note": "3k6",
-            "tags": [
-                "MEIKO",
-                "Ichika",
-                "Shiho",
-                "Minori",
-                "Shizuku",
-                "Nene",
-                "Ena",
-                "Mizuki"
-            ],
-            "type": ".jpg"
-        },
         "052": {
             "price": "80k",
             "crystal": "",
@@ -496,19 +479,6 @@
                 "Emu",
                 "Nene",
                 "Rui"
-            ],
-            "type": ".jpg"
-        },
-        "057": {
-            "price": "80k",
-            "crystal": "",
-            "big_note": "2",
-            "small_note": "4k9",
-            "tags": [
-                "Kanade",
-                "Mafuyu",
-                "Ena",
-                "Mizuki"
             ],
             "type": ".jpg"
         },
