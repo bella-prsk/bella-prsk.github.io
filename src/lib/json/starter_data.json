@@ -139,19 +139,8 @@
             "tags": [
                 "MEIKO",
                 "Akito",
+                "Tsusaka",
                 "Mizuki"
-            ],
-            "type": ".jpg"
-        },
-        "020": {
-            "price": "10k",
-            "crystal": "",
-            "big_note": "2",
-            "small_note": "5k",
-            "tags": [
-                "Ichika",
-                "Kanade",
-                "Mafuyu"
             ],
             "type": ".jpg"
         },
@@ -339,7 +328,7 @@
             "type": ".jpg"
         },
         "039": {
-            "price": "40k",
+            "price": "50k",
             "crystal": "",
             "big_note": "2",
             "small_note": "4k",
@@ -398,7 +387,7 @@
             "type": ".jpg"
         },
         "043": {
-            "price": "20k",
+            "price": "30k",
             "crystal": "",
             "big_note": "1",
             "small_note": "4k6",
@@ -441,7 +430,7 @@
             "type": ".jpg"
         },
         "047": {
-            "price": "20k",
+            "price": "30k",
             "crystal": "",
             "big_note": "4",
             "small_note": "4k3",
@@ -455,7 +444,7 @@
             "type": ".jpg"
         },
         "052": {
-            "price": "80k",
+            "price": "70k",
             "crystal": "",
             "big_note": "5",
             "small_note": "5110",
@@ -475,6 +464,7 @@
             "small_note": "5k6",
             "tags": [
                 "Honami",
+                "An",
                 "Tsusaka",
                 "Emu",
                 "Nene",
@@ -567,7 +557,7 @@
             "type": ".jpg"
         },
         "072": {
-            "price": "25k",
+            "price": "30k",
             "crystal": "",
             "big_note": "2",
             "small_note": "6875",
@@ -609,12 +599,13 @@
             "type": ".jpg"
         },
         "075": {
-            "price": "25k",
+            "price": "50k",
             "crystal": "",
             "big_note": "2",
             "small_note": "6420",
             "tags": [
                 "Minori",
+                "Kanade",
                 "Mafuyu",
                 "Ena",
                 "Mizuki"
