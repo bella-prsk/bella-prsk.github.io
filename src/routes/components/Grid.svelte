@@ -39,11 +39,11 @@
 
 
 <div class="flex flex-col items-center mt-4">
-    <span class="text-sm text-gray-700 dark:text-gray-400">
+    <span class="text-sm text-gray">
         Hiển thị trang
-        <span class="font-semibold text-gray-900 dark:text-white">{currentPage}</span> 
+        <span class="font-semibold text-white">{currentPage}</span> 
         trên 
-        <span class="font-semibold text-gray-900 dark:text-white">{totalPages}</span>
+        <span class="font-semibold text-white">{totalPages}</span>
     </span>
     <div class="inline-flex mt-2 xs:mt-0">
         <button 
