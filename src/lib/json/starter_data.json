@@ -1,21 +1,6 @@
 {
     "folder": "starter",
     "files": {
-        "004": {
-            "price": "50k",
-            "crystal": "",
-            "big_note": "5",
-            "small_note": "9k9",
-            "tags": [
-                "Ichika",
-                "Saki",
-                "Haruka",
-                "Kohane",
-                "Kanade",
-                "Ena"
-            ],
-            "type": ".jpg"
-        },
         "006": {
             "price": "90k",
             "crystal": "",
@@ -114,19 +99,6 @@
                 "Akito",
                 "Tsusaka",
                 "Kanade",
-                "Mizuki"
-            ],
-            "type": ".jpg"
-        },
-        "018": {
-            "price": "10k",
-            "crystal": "",
-            "big_note": "1",
-            "small_note": "5k2",
-            "tags": [
-                "MEIKO",
-                "Akito",
-                "Tsusaka",
                 "Mizuki"
             ],
             "type": ".jpg"
@@ -424,21 +396,6 @@
             "small_note": "5110",
             "tags": [
                 "Akito",
-                "Tsusaka",
-                "Emu",
-                "Nene",
-                "Rui"
-            ],
-            "type": ".jpg"
-        },
-        "054": {
-            "price": "80k",
-            "crystal": "",
-            "big_note": "6",
-            "small_note": "5k6",
-            "tags": [
-                "Honami",
-                "An",
                 "Tsusaka",
                 "Emu",
                 "Nene",
