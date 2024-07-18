@@ -29,9 +29,12 @@
     }
 
     $: filteredImages = selectedTags.size > 0
-        ? Object.entries(imageData.files).filter(([key, fileData]) =>
-            Array.from(selectedTags).every(tag => fileData.tags.includes(tag)))
-        : Object.entries(imageData.files);
+        ? Object.entries(imageData.files)
+            .filter(([key, fileData]) =>
+                Array.from(selectedTags).every(tag => fileData.tags.includes(tag)))
+            .sort((a, b) => b[0] - a[0]) 
+        : Object.entries(imageData.files)
+            .sort((a, b) => b[0] - a[0]); 
 
     $: paginatedImages = filteredImages.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 

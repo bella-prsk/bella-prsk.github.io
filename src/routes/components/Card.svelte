@@ -116,7 +116,7 @@
                 
                 <div class="grid grid-rows-2 grid-flow-col">
                     <div class="row-span-1 col-span-1 text-white font-bold text-xl lg:text-2xl">{title}
-                        {#if fileData.crystal != ''}
+                        {#if fileData.crystal != ""}
                         - {fileData.crystal} đá
                         {/if}
                     </div>
