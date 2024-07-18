@@ -39,20 +39,20 @@
             "type": ".jpg"
         },
         "205": {
-            "price": "80k",
+            "price": "60k",
             "crystal": "80k",
-            "big_note": "",
-            "small_note": "",
+            "big_note": "2",
+            "small_note": "3755",
             "tags": [
                 "KAITO"
             ],
             "type": ".jpg"
         },
         "206": {
-            "price": "40k",
-            "crystal": "39k",
-            "big_note": "",
-            "small_note": "",
+            "price": "60k",
+            "crystal": "38 450",
+            "big_note": "5",
+            "small_note": "7310",
             "tags": [
                 "Minori",
                 "Haruka",
@@ -63,9 +63,9 @@
         },
         "211": {
             "price": "60k",
-            "crystal": "60k",
-            "big_note": "",
-            "small_note": "",
+            "crystal": "60 900",
+            "big_note": "2",
+            "small_note": "4985",
             "tags": [
                 "MIKU",
                 "Shiho",
@@ -127,6 +127,101 @@
                 "MEIKO",
                 "Kohane",
                 "Akito"
+            ],
+            "type": ".jpg"
+        },
+        "219": {
+            "price": "40k",
+            "crystal": "12 875",
+            "big_note": "3",
+            "small_note": "3510",
+            "tags": [
+                "Ichika",
+                "Saki",
+                "Honami",
+                "Shiho"
+            ],
+            "type": ".jpg"
+        },
+        "220": {
+            "price": "80k",
+            "crystal": "43 000",
+            "big_note": "1",
+            "small_note": "2695",
+            "tags": [
+                "Toya",
+                "Tsusaka",
+                "Emu",
+                "Nene",
+                "Rui"
+            ],
+            "type": ".jpg"
+        },
+        "221": {
+            "price": "60k",
+            "crystal": "10 000",
+            "big_note": "3",
+            "small_note": "3465",
+            "tags": [
+                "Shizuku",
+                "Tsusaka",
+                "Emu",
+                "Nene",
+                "Rui"
+            ],
+            "type": ".jpg"
+        },
+        "222": {
+            "type": ".jpg"
+        },
+        "223": {
+            "price": "25k",
+            "crystal": "43 630",
+            "big_note": "2",
+            "small_note": "7070",
+            "tags": [
+                "Tsusaka",
+                "Rui"
+            ],
+            "type": ".jpg"
+        },
+        "224": {
+            "price": "40k",
+            "crystal": "55 230",
+            "big_note": "4",
+            "small_note": "6965",
+            "tags": [
+                "Shizuku",
+                "Tsusaka",
+                "Rui"
+            ],
+            "type": ".jpg"
+        },
+        "225": {
+            "price": "80k",
+            "crystal": "22 880",
+            "big_note": "",
+            "small_note": "",
+            "tags": [
+                "Toya",
+                "Tsusaka",
+                "Emu",
+                "Nene",
+                "Rui"
+            ],
+            "type": ".jpg"
+        },
+        "226": {
+            "price": "70k",
+            "crystal": "34 380",
+            "big_note": "3",
+            "small_note": "7065",
+            "tags": [
+                "Toya",
+                "Tsusaka",
+                "Emu",
+                "Nene",
+                "Rui"
             ],
             "type": ".jpg"
         }
