@@ -24,6 +24,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@payos/node": "^1.0.8",
+		"express": "^4.19.2",
 		"svelte-routing": "^2.13.0"
 	}
 }
