@@ -27,13 +27,9 @@
 
 	<div class="flex flex-wrap items-center gap-4 justify-start mb-4">
 		<Button
-			label="Thông tin"
+			label="Bảng giá Reroll"
 			active={activePage === '0'}
 			onClick={() => setActivePage('0')} />
-		<Button
-			label="Thanh toán"
-			active={activePage === '8'}
-			onClick={() => setActivePage('8')} />
 		<Button
 			label="JP 165k+ đá"
 			active={activePage === '1'}
@@ -54,6 +50,10 @@
 			label="Starter limit còn đá"
 			active={activePage === '7'}
 			onClick={() => setActivePage('7')} />
+		<Button
+			label="Thanh toán"
+			active={activePage === '8'}
+			onClick={() => setActivePage('8')} />
 		<Button
 			label="Hướng dẫn đăng nhập"
 			active={activePage === '4'}
