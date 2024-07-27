@@ -2,7 +2,7 @@
     "folder": "crystal",
     "files": {
         "201": {
-            "price": "50k",
+            "price": "40k",
             "crystal": "43k",
             "big_note": "6",
             "small_note": "8k2",
@@ -26,7 +26,7 @@
             "type": ".jpg"
         },
         "205": {
-            "price": "60k",
+            "price": "50k",
             "crystal": "80k",
             "big_note": "2",
             "small_note": "3755",
@@ -118,7 +118,7 @@
             "type": ".jpg"
         },
         "220": {
-            "price": "80k",
+            "price": "70k",
             "crystal": "43 000",
             "big_note": "1",
             "small_note": "2695",
@@ -169,7 +169,7 @@
             "type": ".jpg"
         },
         "225": {
-            "price": "80k",
+            "price": "70k",
             "crystal": "22 880",
             "big_note": "2",
             "small_note": "6995",
