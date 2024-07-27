@@ -1,23 +1,6 @@
 {
     "folder": "starter",
     "files": {
-        "006": {
-            "price": "90k",
-            "crystal": "",
-            "big_note": "7",
-            "small_note": "6k5",
-            "tags": [
-                "LEN",
-                "MEIKO",
-                "KAITO",
-                "Ichika",
-                "Shiho",
-                "Tsusaka",
-                "Nene",
-                "Kanade"
-            ],
-            "type": ".jpg"
-        },
         "009": {
             "price": "30k",
             "crystal": "",
