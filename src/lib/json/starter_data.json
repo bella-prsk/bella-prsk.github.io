@@ -107,18 +107,6 @@
             ],
             "type": ".jpg"
         },
-        "026": {
-            "price": "20k",
-            "crystal": "",
-            "big_note": "3",
-            "small_note": "6840",
-            "tags": [
-                "KAITO",
-                "Toya",
-                "Rui"
-            ],
-            "type": ".jpg"
-        },
         "029": {
             "price": "40k",
             "crystal": "",
@@ -434,19 +422,6 @@
             ],
             "type": ".jpg"
         },
-        "068": {
-            "price": "30k",
-            "crystal": "",
-            "big_note": "",
-            "small_note": "",
-            "tags": [
-                "LUKA",
-                "Kohane",
-                "An",
-                "Toya"
-            ],
-            "type": ".jpg"
-        },
         "072": {
             "price": "30k",
             "crystal": "",
@@ -527,19 +502,6 @@
                 "Mafuyu",
                 "Ena",
                 "Mizuki"
-            ],
-            "type": ".jpg"
-        },
-        "079": {
-            "price": "10k",
-            "crystal": "",
-            "big_note": "2",
-            "small_note": "3495",
-            "tags": [
-                "Toya",
-                "Tsusaka",
-                "Nene",
-                "Rui"
             ],
             "type": ".jpg"
         },
