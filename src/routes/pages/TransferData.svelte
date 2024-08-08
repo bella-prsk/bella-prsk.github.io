@@ -1,5 +1,6 @@
 <script>
 	import Card from "../components/Card.svelte";
+  import { base } from '$app/paths';
 
 </script>
 
@@ -15,7 +16,7 @@
     <Card
         title="Bước 1"
         description="Ấn vô nút menu."
-        image={{ url: 'tutorial/screenshot_1.jpg', alt: `1` }}
+        image={{ url: `${base}/tutorial/screenshot_1.jpg`, alt: `1` }}
         opt='4'
     />
 
@@ -27,7 +28,7 @@
         3. Xóa bộ nhớ đệm (cache)
         4. Xóa dữ liệu game (xóa luôn tài khoản đang ở trong máy)
         Ấn nút số 1."
-        image={{ url: 'tutorial/screenshot_2.jpg', alt: `2` }}
+        image={{ url: `${base}/tutorial/screenshot_2.jpg`, alt: `2` }}
         opt='4'
     />
 
@@ -37,7 +38,7 @@
         1. Đăng nhập cùng hệ điều hành bằng tài khoản GooglePlay (Android) hoặc Game Center (iOS)
         2. Đăng nhập khác hệ điều hành bằng ID chuyển đổi
         Ấn nút số 2."
-        image={{ url: 'tutorial/screenshot_3.jpg', alt: `3` }}
+        image={{ url: `${base}/tutorial/screenshot_3.jpg`, alt: `3` }}
         opt='4'
     />
 
@@ -46,7 +47,7 @@
         description="Nhập ID vào từng dòng:
         1. Dòng trên là ID chuyển đổi
         2. Dòng dưới là mật khẩu"
-        image={{ url: 'tutorial/screenshot_4.jpg', alt: `4` }}
+        image={{ url: `${base}/tutorial/screenshot_4.jpg`, alt: `4` }}
         opt='4'
     />
 
@@ -55,7 +56,7 @@
         description="Định dạng ID:
         ID chuyển đổi: chuỗi 16 ký tự và không có khoảng trắng
         Mập khẩu: chuỗi từ 8-16 ký tự"
-        image={{ url: 'tutorial/screenshot_5.jpg', alt: `5` }}
+        image={{ url: `${base}/tutorial/screenshot_5.jpg`, alt: `5` }}
         opt='4'
     />
 
@@ -65,7 +66,7 @@
         ID không hợp lệ có thể là:
         1. ID chuyển đổi hoặc mật khẩu sai định dạng
         2. ID hết hạn"
-        image={{ url: 'tutorial/screenshot_6.jpg', alt: `6` }}
+        image={{ url: `${base}/tutorial/screenshot_6.jpg`, alt: `6` }}
         opt='4'
     />
 
@@ -77,7 +78,7 @@
         ID và mật khẩu trong lần đăng nhập này không được sử dụng thêm lần nữa. Nếu bạn muốn chuyển đổi dữ liệu lần nữa, vui lòng thực hiện việc chuyển đổi trong mục chuyển dữ liệu (ở trong game)"
         
         Ấn vô game là được rồi nha.'
-        image={{ url: 'tutorial/screenshot_7.jpg', alt: `7` }}
+        image={{ url: `${base}/tutorial/screenshot_7.jpg`, alt: `7` }}
         opt='4'
     />
             
