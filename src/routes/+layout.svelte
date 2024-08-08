@@ -17,7 +17,7 @@
 				<div class="flex flex-wrap items-center gap-4 justify-start mb-4">
 					<Button
 						label="Bảng giá Reroll"
-						url="{base}/about"
+						url="{base}/"
 						currentUrl={data.url}/>
 					<Button
 						label="JP 165k+ đá"
