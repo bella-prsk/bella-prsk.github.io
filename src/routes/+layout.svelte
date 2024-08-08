@@ -2,7 +2,8 @@
 	import "../app.css";
 	import Footer from './pages/Footer.svelte';
 	import Button from './components/Button.svelte';
-	
+	import { base } from '$app/paths';
+
 	export let data;
 	
 </script>
@@ -16,46 +17,46 @@
 				<div class="flex flex-wrap items-center gap-4 justify-start mb-4">
 					<Button
 						label="Bảng giá Reroll"
-						url="/about"
+						url="{base}/about"
 						currentUrl={data.url}/>
 					<Button
 						label="JP 165k+ đá"
-						url="/account/jp-xl"
+						url="{base}/account/jp-xl"
 						currentUrl={data.url}/>
 
 					<Button
 						label="JP 155k+ đá"
-						url="/account/jp-lg"
+						url="{base}/account/jp-lg"
 						currentUrl={data.url}/>
 						
 					<Button
 						label="ENG 90k+ đá"
-						url="/account/global"
+						url="{base}/account/global"
 						currentUrl={data.url}/>
 						
 					<Button
 						label="Starter limit hết đá"
-						url="/account/starter"
+						url="{base}/account/starter"
 						currentUrl={data.url}/>
 						
 					<Button
 						label="Starter limit còn đá"
-						url="/account/crystal"
+						url="{base}/account/crystal"
 						currentUrl={data.url}/>
 						
 					<Button
 						label="Thanh toán"
-						url="/payment"
+						url="{base}/payment"
 						currentUrl={data.url}/>
 						
 					<Button
 						label="Hướng dẫn đăng nhập"
-						url="/guide/transfer"
+						url="{base}/guide/transfer"
 						currentUrl={data.url}/>
 						
 					<Button
 						label="Hướng dẫn tạo ID"
-						url="/guide/save"
+						url="{base}/guide/save"
 						currentUrl={data.url}/>
 						
 				</div>
