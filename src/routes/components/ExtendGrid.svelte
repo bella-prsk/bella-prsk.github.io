@@ -84,7 +84,7 @@
     <Card
         title="Không tìm thấy"
         description="Không tìm thấy dữ liệu phù hợp"
-        image={{ url: 'assets/not_found.png', alt: `not found` }}
+        image={{ url: `${base}/assets/not_found.png`, alt: `not found` }}
         opt='4'
     />
     {/if}
