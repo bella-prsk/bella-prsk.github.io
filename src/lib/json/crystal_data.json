@@ -35,20 +35,6 @@
             ],
             "type": ".jpg"
         },
-        "213": {
-            "price": "120k",
-            "crystal": "75 200",
-            "big_note": "6",
-            "small_note": "5825",
-            "tags": [
-                "MIKU",
-                "MEIKO",
-                "Kohane",
-                "Akito",
-                "Kanade"
-            ],
-            "type": ".jpg"
-        },
         "214": {
             "price": "60k",
             "crystal": "27 000",
@@ -64,7 +50,7 @@
             "type": ".jpg"
         },
         "215": {
-            "price": "80k",
+            "price": "70k",
             "crystal": "39 400",
             "big_note": "4",
             "small_note": "6475",
@@ -75,19 +61,6 @@
                 "Akito",
                 "Kanade",
                 "Mafuyu"
-            ],
-            "type": ".jpg"
-        },
-        "217": {
-            "price": "120k",
-            "crystal": "90 300",
-            "big_note": "2",
-            "small_note": "5430",
-            "tags": [
-                "MIKU",
-                "MEIKO",
-                "Kohane",
-                "Akito"
             ],
             "type": ".jpg"
         },
