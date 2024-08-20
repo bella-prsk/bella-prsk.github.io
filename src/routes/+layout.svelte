@@ -1,75 +1,34 @@
 <script>
 	import "../app.css";
-	import Footer from './pages/Footer.svelte';
-	import Button from './components/Button.svelte';
-	import { base } from '$app/paths';
 
-	export let data;
-	
 </script>
 
+<div class="bg-navy-900 min-h-screen flex items-center justify-center">
+	<div class="w-full bg-gradient-to-br from-navy-700 to-navy-600 py-16 px-4 sm:px-6 lg:px-8">
+		<div class="max-w-4xl mx-auto">
+			<div class="text-center">
+				<h2 class="text-white font-bold text-4xl sm:text-5xl mb-8">Thông báo</h2>
 
-<div class="bg-navy-900">
-	<div class="bg-navy-800 max-w-6xl mx-auto">
-		<div class="md:px-10 lg:px-20">
-			<!-- <Presentation/> -->
-			<div class="mx-4 sm:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl py-10 md:py-20">
-				<div class="flex flex-wrap items-center gap-4 justify-start mb-4">
-					<Button
-						label="Bảng giá Reroll"
-						url="{base}/"
-						currentUrl={data.url}/>
-					<Button
-						label="JP 165k+ đá"
-						url="{base}/account/jp-xl"
-						currentUrl={data.url}/>
+				<p class="text-white font-light text-xl sm:text-2xl mb-8 leading-relaxed">
+					Hiện tại mình đang chạy thử web bán acc tự động, mọi người có thể ghé qua để coi acc cũng như mua acc ở link dưới nha:
+				</p>
 
-					<Button
-						label="JP 155k+ đá"
-						url="{base}/account/jp-lg"
-						currentUrl={data.url}/>
-						
-					<Button
-						label="ENG 90k+ đá"
-						url="{base}/account/global"
-						currentUrl={data.url}/>
-						
-					<Button
-						label="Starter limit hết đá"
-						url="{base}/account/starter"
-						currentUrl={data.url}/>
-						
-					<Button
-						label="Starter limit còn đá"
-						url="{base}/account/crystal"
-						currentUrl={data.url}/>
-						
-					<Button
-						label="Thanh toán"
-						url="{base}/payment"
-						currentUrl={data.url}/>
-						
-					<Button
-						label="Hướng dẫn đăng nhập"
-						url="{base}/guide/transfer"
-						currentUrl={data.url}/>
-						
-					<Button
-						label="Hướng dẫn tạo ID"
-						url="{base}/guide/save"
-						currentUrl={data.url}/>
-						
-				</div>
+				<a href="https://game.bellasekai.com/" target="_blank" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg text-xl sm:text-2xl mb-8 transition duration-300 ease-in-out">
+					Truy cập Bella Sekai
+				</a>
 
-				<slot />
-				
+				<p class="text-white font-light text-xl sm:text-2xl mb-8 leading-relaxed">
+					Nếu đã ghé qua, hi vọng mọi người có thể điền form khảo sát để mình có thể hoàn thiện web nha:
+				</p>
+
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScnFEAcPUs29SCY7oEKdgjU8aPAaVwrzXsQBdZSxSTt3lUYew/viewform" target="_blank" class="mb-8 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl sm:text-2xl transition duration-300 ease-in-out">
+					Điền Khảo sát Trải nghiệm Người dùng
+				</a>
+
+				<p class="text-white font-light text-xl sm:text-2xl leading-relaxed">
+					Mình cám ơn mọi người rất nhiều!
+				</p>
 			</div>
-			
-			
-			<Footer/>
-
 		</div>
 	</div>
 </div>
-
-
