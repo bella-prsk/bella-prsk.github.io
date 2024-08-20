@@ -7,8 +7,7 @@
 	<div class="w-full bg-gradient-to-br from-navy-700 to-navy-600 py-16 px-4 sm:px-6 lg:px-8">
 		<div class="max-w-4xl mx-auto">
 			<div class="text-center">
-				<h2 class="text-white font-bold text-4xl sm:text-5xl mb-8">Thông báo</h2>
-
+				
 				<p class="text-white font-light text-xl sm:text-2xl mb-8 leading-relaxed">
 					Hiện tại mình đang chạy thử web bán acc tự động, mọi người có thể ghé qua để coi acc cũng như mua acc ở link dưới nha:
 				</p>
